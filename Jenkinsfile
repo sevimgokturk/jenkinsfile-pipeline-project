@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Integrating Jenkins Pipeline with SEVIM :)'
-                sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
+                sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile.'
             }
         }
     }
